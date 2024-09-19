@@ -13,3 +13,6 @@ Interakcja z użytkownikiem:Użytkownik wprowadza liczby i wybiera operatory mat
 
 Dzięki niemu użytkownik może szybko i łatwo wykonać różne obliczenia matematyczne.
 Do tego projektu będę wykorzystywała HTML, CSS i JavaScript.
+
+ver.0.00.beta
+W tej wersji zaczęłam pisać początkowy kod w HTML.
