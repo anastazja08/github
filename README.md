@@ -1,5 +1,6 @@
 # My Github Project
 To mój pierwszy Github projekt.Opublikowałam ten projekt bezpośrednio z poziomu Visual Studio Code.
+
 Do czego służy aplikacja?
 
 Kalkulator, aplikacja służąca do wykonywania obliczeń matematycznych, takich jak dodawanie, odejmowanie, mnożenie i dzielenie oraz innych obliczeń matematycznych.
