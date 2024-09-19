@@ -4,6 +4,7 @@ To mój pierwszy Github projekt.Opublikowałam ten projekt bezpośrednio z pozio
 Do czego służy aplikacja?
 
 Kalkulator, aplikacja służąca do wykonywania obliczeń matematycznych, takich jak dodawanie, odejmowanie, mnożenie i dzielenie oraz innych obliczeń matematycznych.
+
 Jak działa (zasada)?
 
 Kalkulator działa na zasadzie przyjmowania danych wejściowych od użytkownika, później przetwarza dane w celu wykonania określonej operacji matematycznej. Wynik obliczeń jest następnie wyświetlany na ekranie.
