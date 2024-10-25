@@ -1,0 +1,28 @@
+ZSADY CLEAN CODE, KTÓRYCH UŻYŁAM W KODZIE:
+
+1.ZASADA DRY(Don’t Repeat Yourself)
+mówi, żeby nie powtarzać tego samego kodu w różnych miejscach. 
+W moim kodzie unikałam duplikowanie się kodu.Każdy fragment informacji lub funkcjonalności jest zdefiniowany raz i jest używany w różnych miejscach przez odwołanie. 
+Dzięki tym zmianom kod jest bardziej czytelny, prostszy, łatwiejszy do poprawiania i mniej podatny na błędy.
+
+2.ZASADA  KISS (Keep It Simple, Stupid)
+mówi, że kod powinien być prosty i łatwy do zrozumienia.
+W kodzie uniknęłam zbędnej złożoności, pisałam czytelnie i skupiałam się na podstawowych potrzebach.
+Zasada KISS pomaga tworzyć lepszy, bardziej przejrzysty kod, co ułatwia jego utrzymanie i rozwój w przyszłości.
+
+3.ZASADA SRP(Single Responsibility Principle)
+mówi, że każda klasa lub moduł powinien mieć tylko jedną odpowiedzialność lub cel. 
+Uporządkowłam kod, przypisując styl tła do klas na podstawie ich odpowiedzialności: 
+klasy bg-* dotyczą koloru tła, a klasy btn-* specyficznych funkcji przycisków.
+Dzięki temu, każda klasa pełni jednoznaczną rolę, co jest zgodne z zasadą SRP i ułatwia późniejsze zarządzanie oraz stylizowanie przycisków.
+
+4.ZASADA Consistency(spójność)
+poprawia czytelność i ułatwia zarządzanie stylami.
+Spójność w kodzie polega na tym, aby podobne elementy miały podobne nazwy klas i stylów.
+Zamiast definiować właściwości indywidualnie dla przycisku .btn.zero, wprowadziłam klasę pomocniczą do wspólnych stylów.
+Ułatwa modyfikacje: Wszelkie zmiany dotyczące width i border-radius będą teraz miały wpływ na wszystkie przyciski, co upraszcza ich stylizowanie.
+
+5.ZASADA YAGNI (You Aren't Gonna Need It)
+Uproszczenie siatki z wykorzystaniem grid-template-columns sprawia, że nie muszę definiować złożonej struktury obszarów, co może być nadmiarowe
+Wyeliminowałam dodatkowe obszary, które mogą nie być potrzebne by mieć bardziej prosty układ.
+Wszelkie zmiany w liczbie przycisków będą teraz prostsze do zaimplementowania, a kod jest bardziej elastyczny.
