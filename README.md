@@ -16,3 +16,6 @@ Do tego projektu będę wykorzystywała HTML, CSS i JavaScript.
 
 ver.0.00.beta
 W tej wersji zaczęłam pisać początkowy kod w HTML.
+
+ver.0.01.beta 
+Stworzyłam podstawowy wygląd swojego kalkulatoru w HTML i CSS oraz użyłam zasady Clean Code.
