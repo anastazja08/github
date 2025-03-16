@@ -19,3 +19,15 @@ W tej wersji zaczęłam pisać początkowy kod w HTML.
 
 ver.0.01.beta 
 Stworzyłam podstawowy wygląd swojego kalkulatoru w HTML i CSS oraz użyłam zasady Clean Code.
+
+ver.0.02.beta
+Stworzyłam plik z rozszerzeniem .js, w którym napisałam kod JavaScript umożliwiający klikanie przycisków na stronie. Dzięki temu użytkownicy mogą łatwo wchodzić w interakcję z aplikacją, a kliknięcia przycisków są odpowiednio obsługiwane przez skrypt.
+
+ver.0.03.beta
+Doprecyzowałam kod JS, dzięki czemu kalkulator teraz wykonuje podstawowe obliczenia matematyczne, takie jak dodawanie, odejmowanie, mnożenie i dzielenie.
+
+ver.0.04.beta
+Dodałam do swojego kodu komentarze w wybranych językach, w których szczegółowo opisane są wszystkie pola kodu, aby ułatwić jego zrozumienie i uczynić go bardziej czytelnym dla użytkownika.
+
+ver.0.05.beta
+Testowanie aplikacji kalkulatora na stronie internetowej zostało przeprowadzone za pomocą Selenium. Sprawdziłam, czy kalkulator działa poprawnie, wykonując różne obliczenia w przeglądarce. Celem było upewnienie się, że aplikacja działa płynnie i jest łatwa w obsłudze dla użytkowników.
