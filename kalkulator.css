@@ -1,37 +1,40 @@
 :root {
     --main-bg-color: black;
-    --main-text-color: aliceblue;
-    --border-radius: 20px;
-    --font-family: Arial, Helvetica, sans-serif;
-    --padding: 18px;
-    --shadow-color: palevioletred;
-    --shadow-size: 5px 5px 5px;
-    --margin-auto: 50px auto;
-    --calc-width: 300px;
-    --calc-height: 500px;
+    --main-bg-color: black;          
+    --main-text-color: aliceblue;    
+    --border-radius: 20px;            /* Promień zaokrąglenia narożników */
+    --font-family: Arial, Helvetica, sans-serif; 
+    --padding: 18px;                  /* Wewnętrzny odstęp */
+    --shadow-color: rgb(234, 137, 170);  
+    --shadow-size: 50px 60px 90px;       
+    --margin-auto: 50px auto;         
+    --calc-width: 300px;             
+    --calc-height: 500px;  
+    background-image: url('kalk.jpg');        
 }
 
 .kalkulator {
-    margin: var(--margin-auto);
-    width: var(--calc-width);
-    height: var(--calc-height);
-    /* border: 1px solid black; szerokosc, styl, kolor */
-    border-radius: var(--border-radius);
-    background: var(--main-bg-color);
-    color: var(--main-text-color);
-    font-family: var(--font-family);
-    padding: var(--padding);
-    box-shadow: var(--shadow-size) var(--shadow-color);
+/* Styl głównego kontenera kalkulatora */
+margin: var(--margin-auto);           /* Wyśrodkowanie na stronie */
+width: var(--calc-width);             /* Ustawienie szerokości kalkulatora */
+height: var(--calc-height);           /* Ustawienie wysokości kalkulatora */
+/* border: 1px solid black; szerokość, styl, kolor */
+border-radius: var(--border-radius);  /* Zaokrąglone rogi */
+background: var(--main-bg-color);     /* Kolor tła */
+color: var(--main-text-color);        /* Kolor tekstu */
+font-family: var(--font-family);      /* Czcionka tekstu */
+padding: var(--padding);              /* Wewnętrzny odstęp od krawędzi */
+box-shadow: var(--shadow-size) var(--shadow-color); /* Cień wokół kalkulatora */
 }
 
 
 .kalk-screen{
-    height: 125px;
-    padding: 10px;
-    display: grid;
-    justify-items: end;
-    align-items: end;
-    margin-bottom: 25px;
+    height: 125px;           /* Wysokość obszaru wyświetlacza kalkulatora */
+    padding: 10px;           /* Wewnętrzne odstępy wokół treści */
+    display: grid;           /* Użycie modelu siatki CSS do pozycjonowania */
+    justify-items: end;      /* Wyrównanie zawartości do prawej strony w poziomie */
+    align-items: end;        /* Wyrównanie zawartości do dolnej krawędzi w pionie */
+    margin-bottom: 25px;     /* Odstęp poniżej wyświetlacza */ 
 }
 
 .kalk-screen p {
@@ -67,7 +70,7 @@
 
 .btn {
     width: 100%; /* Wspólna szerokość dla wszystkich przycisków */
-    border-radius: 35px; 
+    border-radius: 25px; 
 }
 
 
