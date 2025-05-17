@@ -31,3 +31,6 @@ Dodałam do swojego kodu komentarze w wybranych językach, w których szczegół
 
 ver.0.05.beta
 Testowanie aplikacji kalkulatora na stronie internetowej zostało przeprowadzone za pomocą Selenium. Sprawdziłam, czy kalkulator działa poprawnie, wykonując różne obliczenia w przeglądarce. Celem było upewnienie się, że aplikacja działa płynnie i jest łatwa w obsłudze dla użytkowników.
+
+ver.1.00.beta
+Do podstawowego kalkulatora dodałam własnoręcznie funkcję rysowania wykresów matematycznych. Umożliwia ona wpisanie wyrażenia (np. x*x, Math.sin(x)) i wygenerowanie wykresu funkcji przy użyciu biblioteki Plotly.js. Zmieniłam HTML (pole input, przycisk, miejsce na wykres), CSS (styl wykresu) oraz JS (obsługa rysowania). To moja finalna wersja projektu.
