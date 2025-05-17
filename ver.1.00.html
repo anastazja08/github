@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <div class="kalk-screen">
+            <p>0</p>
+        </div>
+        <div class="buttons">
+            <div class="btn bg-black btn-ac">AC</div>
+            <div class="btn bg-black btn-plus-minus">+/-</div> 
+            <div class="btn bg-black btn-sqrt">√</div>
+            <div class="btn bg-pink btn-divide">/</div> 
+
+            <div class="btn">7</div>
+            <div class="btn">8</div>
+            <div class="btn">9</div>
+            <div class="btn multi bg-pink">X</div>
+
+            <div class="btn four">4</div>
+            <div class="btn five">5</div>
+            <div class="btn six">6</div>
+            <div class="btn bg-pink minus">-</div>
+
+            <div class="btn one">1</div>
+            <div class="btn two">2</div>
+            <div class="btn three">3</div>
+            <div class="btn bg-pink plus">+</div>
+
+            <div class="btn zero">0</div>
+            <div class="btn dot">.</div>
+            <div class="btn bg-pink equal">=</div>
+        </div>
+    </div>
+
+    
+    <div class="plot-section">
+        <input type="text" id="functionInput" placeholder="Wpisz funkcję, np. x*x lub Math.sin(x)">
+        <button id="plotButton">Rysuj wykres</button>
+        <div id="plot" style="width:100%;max-width:600px;height:400px;margin-top:20px;"></div>
+    </div>
+    
+    
+    <script src="kalkulator.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</body>
+</html>
